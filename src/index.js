@@ -1,2 +1,13 @@
 import './styles.css';
-import './modules/displauUI.js';
+import getDataofForm from './modules/getDataofForm.js';
+import add from './modules/addScore.js';
+
+add();
+
+document.querySelector('#refresh-btn').addEventListener('click', () => {
+  getDataofForm();
+});
+
+window.addEventListener('load', () => {
+  getDataofForm();
+});

@@ -41,7 +41,7 @@ section {
   padding: 5px;
 }
 
-li:nth-child(odd) {
+li:nth-child(even) {
   background-color: silver;
 }
 
