@@ -1,6 +1,6 @@
 import './styles.css';
 import getDataofForm from './modules/getDataofForm.js';
-import add from './modules/addScore.js';
+import add from './modules/add.js';
 
 add();
 
