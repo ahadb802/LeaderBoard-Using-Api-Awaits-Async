@@ -1,11 +1,42 @@
 body {
   margin: 10px;
+  background-color: blueviolet;
+  background-image: url("./images/3150115.png");
+  background-repeat: no-repeat;
+  background-position: 50% 5px;
+}
+
+h1,
+h2,
+li,
+button {
+  color: bisque;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  background-color: transparent;
+  border: 2px solid bisque;
+}
+
+input {
+  background-color: transparent;
+  padding: 10px;
+  width: 150%;
+  height: 35px;
+  border: 2px solid bisque;
+}
+
+input::placeholder {
+  color: bisque;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
+  margin-left: 100px;
 }
 
 main {
@@ -33,7 +64,7 @@ section {
 .score-list {
   list-style: none;
   width: 50%;
-  border: 2px solid black;
+  border: 2px solid bisque;
   padding: 0;
 }
 
@@ -42,7 +73,8 @@ section {
 }
 
 li:nth-child(even) {
-  background-color: silver;
+  background-color: bisque;
+  color: #000;
 }
 
 form {
@@ -50,8 +82,4 @@ form {
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
-}
-
-form button {
-  width: 60px;
 }
