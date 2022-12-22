@@ -1,13 +1,13 @@
 import './styles.css';
-import getData from './modules/getData.js';
-import addScore from './modules/addScoreToForm.js';
+import getDataofForm from './modules/getDataofForm.js';
+import add from './modules/addScore.js';
 
-addScore();
+add();
 
 document.querySelector('#refresh-btn').addEventListener('click', () => {
-  getData();
+  getDataofForm();
 });
 
 window.addEventListener('load', () => {
-  getData();
+  getDataofForm();
 });
